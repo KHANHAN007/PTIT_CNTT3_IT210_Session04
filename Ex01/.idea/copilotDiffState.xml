@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/build (snapshot).gradle">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/build (snapshot).gradle" />
+              <option name="originalContent" value="plugins {&#10;    id 'java'&#10;    id 'war'&#10;}&#10;&#10;group 'demo.hello'&#10;version '1.0-SNAPSHOT'&#10;&#10;repositories {&#10;    mavenCentral()&#10;}&#10;&#10;ext {&#10;    junitVersion = '5.13.2'&#10;}&#10;&#10;sourceCompatibility = '22'&#10;targetCompatibility = '22'&#10;&#10;tasks.withType(JavaCompile) {&#10;    options.encoding = 'UTF-8'&#10;}&#10;&#10;dependencies {&#10;    compileOnly('jakarta.servlet:jakarta.servlet-api:6.1.0')&#10;&#10;    testImplementation(&quot;org.junit.jupiter:junit-jupiter-api:${junitVersion}&quot;)&#10;    testRuntimeOnly(&quot;org.junit.jupiter:junit-jupiter-engine:${junitVersion}&quot;)&#10;    // Source: https://mvnrepository.com/artifact/org.springframework/spring-webmvc&#10;    implementation(&quot;org.springframework:spring-webmvc:7.0.6&quot;)&#10;    // Source: https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api&#10;    implementation(&quot;jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2&quot;)&#10;    // Source: https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl&#10;    runtimeOnly(&quot;org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1&quot;)&#10;}&#10;&#10;test {&#10;    useJUnitPlatform()&#10;}" />
+              <option name="updatedContent" value="plugins {&#10;    id 'java'&#10;    id 'war'&#10;}&#10;&#10;group 'demo.hello'&#10;version '1.0-SNAPSHOT'&#10;&#10;repositories {&#10;    mavenCentral()&#10;}&#10;&#10;ext {&#10;    junitVersion = '5.13.2'&#10;}&#10;&#10;sourceCompatibility = '22'&#10;targetCompatibility = '22'&#10;&#10;tasks.withType(JavaCompile) {&#10;    options.encoding = 'UTF-8'&#10;}&#10;&#10;dependencies {&#10;    compileOnly('jakarta.servlet:jakarta.servlet-api:6.1.0')&#10;&#10;    testImplementation(&quot;org.junit.jupiter:junit-jupiter-api:${junitVersion}&quot;)&#10;    testRuntimeOnly(&quot;org.junit.jupiter:junit-jupiter-engine:${junitVersion}&quot;)&#10;    // Source: https://mvnrepository.com/artifact/org.springframework/spring-webmvc&#10;    implementation(&quot;org.springframework:spring-webmvc:7.0.6&quot;)&#10;    // Source: https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api&#10;    implementation(&quot;jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2&quot;)&#10;    // Source: https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl&#10;    runtimeOnly(&quot;org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1&quot;)&#10;    // JSP support&#10;    implementation(&quot;jakarta.servlet.jsp:jakarta.servlet.jsp-api:3.1.1&quot;)&#10;    // EL support&#10;    implementation(&quot;jakarta.el:jakarta.el-api:5.0.1&quot;)&#10;    runtimeOnly(&quot;org.glassfish:jakarta.el:5.0.1&quot;)&#10;}&#10;&#10;test {&#10;    useJUnitPlatform()&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
